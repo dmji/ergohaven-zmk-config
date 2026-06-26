@@ -79,30 +79,30 @@ include:
     shield: op36_left_qube
 
   - board: ergohaven
-    shield: k03_left
+    shield: k03_left raw_hid_adapter
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: ergohaven
-    shield: k03_left
+    shield: k03_left raw_hid_adapter
     keymap: k03_ruen
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: k03_left_ruen-ergohaven-zmk
   - board: ergohaven
-    shield: k03_right
+    shield: k03_right raw_hid_adapter
   - board: ergohaven
-    shield: k03_qube qube dongle_screen
+    shield: k03_qube qube dongle_screen raw_hid_adapter
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: k03_qube-ergohaven-zmk
   - board: ergohaven
-    shield: k03_qube qube dongle_screen
+    shield: k03_qube qube dongle_screen raw_hid_adapter
     keymap: k03_ruen
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: k03_qube_ruen-ergohaven-zmk
   - board: ergohaven
-    shield: k03_left_qube
+    shield: k03_left_qube raw_hid_adapter
 
   - board: ergohaven
     shield: imperial44_left
